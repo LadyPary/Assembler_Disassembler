@@ -1,0 +1,167 @@
+xor edx,DWORD PTR [ebp+r9d*4+0x55]
+xor rdx,r8
+xor rbx,rcx
+mov ecx,DWORD PTR [ebx]
+mov edx,DWORD PTR [ebp+0x12]
+mov edx,DWORD PTR [ebx+ecx*1+0x32345467]
+mov eax,DWORD PTR [ebp+0x0]
+mov rax,QWORD PTR [ebp+0x37]
+mov edx,DWORD PTR [ebp+0x75746333]
+and cx,WORD PTR [rcx]
+and r14w,bx
+and r15b,r9b
+or WORD PTR [edx*8+0x0],ax
+inc r15
+dec DWORD PTR [rcx+rbx*4]
+imul ecx,r10d
+imul cx,WORD PTR [r11*2+0x0]
+idiv r12
+idiv DWORD PTR [rax+rbx*1]
+bsf r11,QWORD PTR [r8+r12*4+0x13]
+test r12d,ecx
+xchg r12d,ecx
+shr rbx,1
+xchg r12d,ecx
+and r15b,r9b
+xchg r12d, ecx
+shr rcx,1
+shr rdx,0x10
+add eax,DWORD PTR [esi+0x35]
+add edx,DWORD PTR [ebx+ecx*1+0x32345467]
+syscall
+neg bx
+not BYTE PTR [r11]
+shl rbx,1
+and cx,WORD PTR [rcx]
+xor edx,DWORD PTR [ebp+r9d*4+0x55]
+xor rdx,r8
+xor rbx,rcx
+mov ecx,DWORD PTR [ebx]
+mov edx,DWORD PTR [ebp+0x12]
+imul ecx,r10d
+imul cx,WORD PTR [r11*2+0x0]
+idiv r12
+idiv DWORD PTR [rax+rbx*1]
+bsf r11,QWORD PTR [r8+r12*4+0x13]
+and r14w,bx
+and r15b,r9b
+or WORD PTR [edx*8+0x0],ax
+inc r15
+dec DWORD PTR [rcx+rbx*4]
+xadd r9,rax
+bsf ax,WORD PTR [r8+r12*4+0x13]
+sbb DWORD PTR [ebx+0xa],0xc
+ret 0x18
+ret
+adc DWORD PTR [rbx+rcx*1+0x32345467],0x852
+sub r9w,dx
+cmp r8d,ebx
+bsr r11,QWORD PTR [rbp+r12*1+0x0]
+stc
+clc
+std
+cld
+shl QWORD PTR [r9]
+shl QWORD PTR [rax]
+shl rax,3
+shl QWORD PTR [rax],0x4
+call rax
+call 01160002
+push 1
+push 12
+push 0x12
+push 2424
+push 24242424
+push rax
+pop rax
+imul r9d,DWORD PTR [r12*4+0x0]
+imul BYTE PTR [r12*4+0x0]
+imul DWORD PTR [rax]
+add eax,0x33333333
+adc r10,0x3523
+xadd BYTE PTR [r8+0x1100],al
+adc DWORD PTR [rbx+rcx*1+0x32345467],0x852
+not DWORD PTR [ebp+ecx*2+0x32345467]
+not QWORD PTR [rax]
+pop [rax]
+push [rax]
+mov dx,0x1352
+not QWORD PTR [rdi]
+not DWORD PTR [ebx]
+not BYTE PTR [rsi]
+not QWORD PTR [ebp+0x0]
+not DWORD PTR [ebp+0x32]
+not DWORD PTR [ebp+0x3234]
+not DWORD PTR [ebp+0x32345467]
+not DWORD PTR [rbx+0x32345467]
+add rax,0x5
+xchg BYTE PTR [r8],al
+xadd BYTE PTR [r8+0x1100],al
+imul r10,QWORD PTR [rbx]
+imul rax,rbx
+imul QWORD PTR [rbx]
+imul rbx
+bsf r12,r11
+adc r10,0x3523
+adc DWORD PTR [rbx+rcx*1+0x32345467],0x852
+adc DWORD PTR [rbx+rcx*1],0x852
+adc DWORD PTR [rbx+0x32345467],0x852
+adc DWORD PTR [rcx*1+0x32345467],0x852
+adc DWORD PTR [rcx*1+0x0],0x852
+adc DWORD PTR [r13+0x0],0x852
+xadd BYTE PTR [r8+0x1100],al
+mov DWORD PTR [r8+r12*4+0x16],eax
+mov r9w,ax
+mov r9,r8
+add DWORD PTR [ebx+ebp*1],852
+adc DWORD PTR [rbx+rcx*1+0x32345467],0x852
+add DWORD PTR [r10+rcx*1+0x32345467],0x852
+mov DWORD PTR [r8+r12*4+0x1],eax
+mov DWORD PTR [r8+r12*4+0x16],eax
+mov rax,QWORD PTR [r8+r12*4+0x16]
+mov DWORD PTR [ebx+ecx*1+0x32345467],edx
+mov edx,DWORD PTR [ebx+ecx*1+0x32345467]
+imul QWORD PTR [rbx]
+imul rbx
+not DWORD PTR [ebp+ecx*2+0x32345467]
+not DWORD PTR [rbx+rdi*1+0x32345467]
+not QWORD PTR [ebp+ecx*1+0x0]
+not QWORD PTR [rbx+rcx*1]
+not DWORD PTR [rbx+rcx*1]
+not DWORD PTR [edx+ecx*2]
+not QWORD PTR [rbp+rcx*8+0x0]
+not QWORD PTR [ebp+ecx*1+0x0]
+not QWORD PTR [ecx*8+0x06]
+not QWORD PTR [ecx*8+0x0]
+not QWORD PTR [0x55]
+not QWORD PTR [0x5555]
+not QWORD PTR [0x5555551E]
+not DWORD PTR [rbx+0x32345467]
+not DWORD PTR [ebp+0x32345467]
+not DWORD PTR [ebp+0x3234]
+not DWORD PTR [ebp+0x32]
+not QWORD PTR [ebp+0x0]
+not QWORD PTR [rax]
+not BYTE PTR [rax]
+not DWORD PTR [ebx]
+add DWORD PTR [ebp+ecx*2+0x32345467],0x25
+add DWORD PTR [rbx+rcx*1+0x32345467],0x25
+add QWORD PTR [ebp+ecx*1+0x0],0x25
+add QWORD PTR [rbx+rcx*1],0x25
+add DWORD PTR [rbx+rcx*1],0x25
+add DWORD PTR [edx+ecx*2],0x25
+add QWORD PTR [rbp+rcx*8+0x0],0x25
+add QWORD PTR [ebp+ecx*1+0x0],0x25
+add QWORD PTR [ecx*8+0x06],0x25
+add QWORD PTR [ecx*8+0x0],0x25
+add QWORD PTR [0x55],0x25
+add QWORD PTR [0x5555],0x25
+add QWORD PTR [0x5555551E],0x25
+add DWORD PTR [rbx+0x32345467],0x25
+add DWORD PTR [ebp+0x32345467],0x25
+add DWORD PTR [ebp+0x3234],0x25
+add DWORD PTR [ebp+0x32],0x25
+add QWORD PTR [ebp+0x0],0x25
+add QWORD PTR [rax],0x25
+add BYTE PTR [rax],0x25
+add DWORD PTR [ebx],0x25
