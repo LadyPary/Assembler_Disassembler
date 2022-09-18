@@ -13,7 +13,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This is a **Machine language and Assembly** course project. The goal is to design **an assembler and a disassembler** for the assembly64 language where the assembler converts asm64 commands to hexadecimal equivalents, and the disassembler converts the binary strings into asm64 commands.
+This is a **Machine Language and Assembly** course project. The goal is to design **an assembler and a disassembler** for the assembly64 language where the assembler converts asm64 commands to hexadecimal equivalents, and the disassembler converts the binary strings into asm64 commands.
 I've implemented them first using the python language and then using the assembly language itself. 
 My reference for the conversions was [this site](https://defuse.ca/online-x86-assembler.htm). 
 
